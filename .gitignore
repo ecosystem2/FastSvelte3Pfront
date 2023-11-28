@@ -1,7 +1,0 @@
-
-validation_errors.log
-*node_modules/*
-# Byte-compiled / optimized / DLL files
-__pycache__/
-.pyc 
-
