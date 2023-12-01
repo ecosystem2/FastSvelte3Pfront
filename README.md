@@ -4,26 +4,14 @@ Frontend, using Svelte and Vite, for interacting with [open3p API microservice](
 
 ## Development Instructions
 
-Clone this repo and install [Python](https://www.python.org/downloads/).  From the root directory of this repo, run:
+Clone this repo and install [Node.js](http://nodejs.org/).  From the root directory of this repo, run:
 
-```python
-python -m venv ./venv #Create your python virtual environment
-
-#WINDOWS
-venv\Scripts\activate.bat
-#LINUX
-. venv/bin/activate
-
-pip install --no-cache-dir --upgrade -r requirements.txt #Install project dependancies 
-``` 
-
-cd into the root directory with main.py
-
-```python
-uvicorn main:app --reload #Start the Fast API server
+```js
+npm install
+npm run build
+npm run dev
 ```
-
-Typically hosted at `http://localhost:8000`.
+Typically hosted at `http://localhost:5173/`.
 
 ## Production Instructions
 
