@@ -59,7 +59,7 @@ It is assumed you already have accounts for [Dockerhub](https://hub.docker.com) 
 - Press the green button that says "Publish release"
 - Wait for the build to complete
 
-### Feel free to use the included docker-compose file, please note that it uses Traefik in order to create routes and assign SSL certificates.
+#### Feel free to use the included docker-compose file, please note that it uses Traefik in order to create routes and assign SSL certificates.
 
 | Screenshot                                                            | Description|
 |-----------------------------------------------------------------------|------------|
