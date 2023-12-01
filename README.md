@@ -13,6 +13,12 @@ npm run dev
 ```
 Typically hosted at `http://localhost:5173/`.
 
+### Folder Structure
+- Fast API endpoints are hosted in main.py in the root directory
+- /schemamodels/models contain the Pandera schema model files
+- /schemamodels/models/controlled_lists contains the controlled list as a .csv to be updated
+- updated or new controlled lists are imported into the relevant Pandera schema
+
 ## Production Instructions
 
 A docker file and github workflow is included within this repository. When a release is created, the docker container is built and submitted to dockerhub.
@@ -57,6 +63,8 @@ It is assumed you already have accounts for [Dockerhub](https://hub.docker.com) 
 | Screenshot                                                            | Description|
 |-----------------------------------------------------------------------|------------|
 | ![](Demonstration/Demonstration.GIF)        | Current state of the webapp. |
+
+
 
 ###TODO
 - Upload Working example
