@@ -9,6 +9,8 @@ export default defineConfig({
     server: {
       proxy: {
         '/': 'http://localhost:8000',
+        '/': 'https://open3p.ecosystem2.co.uk',
+        '/': 'https://open3p.rovolis.co.uk',
       },
     },
   });
