@@ -64,7 +64,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/basematerials/"
+                value="/api/basematerials/"
             />
             Base Materials
         </label>
@@ -72,7 +72,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/materials/"
+                value="/api/materials/"
             />
             Materials
             <!-- Add more radio buttons for additional endpoints -->
@@ -81,7 +81,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/components/"
+                value="/api/components/"
             />
             Components
         </label>
@@ -89,7 +89,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/completepackaging/"
+                value="/api/completepackaging/"
             />
             Complete Packaging
         </label>
@@ -97,7 +97,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/multipack/"
+                value="/api/multipack/"
             />
             Multipack
         </label>
@@ -105,7 +105,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/loadcatalogue/"
+                value="/api/loadcatalogue/"
             />
             Load Catalogue
         </label>
@@ -113,7 +113,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/load/"
+                value="/api/load/"
             />
             Load
         </label>
