@@ -64,7 +64,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/basematerials/"
+                value="/api/basematerials/"
             />
             Base Materials
         </label>
@@ -72,7 +72,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/materials/"
+                value="/api/materials/"
             />
             Materials
             <!-- Add more radio buttons for additional endpoints -->
@@ -81,7 +81,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/components/"
+                value="/api/components/"
             />
             Components
         </label>
@@ -89,7 +89,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/completepackaging/"
+                value="/api/completepackaging/"
             />
             Complete Packaging
         </label>
@@ -97,7 +97,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/multipack/"
+                value="/api/multipack/"
             />
             Multipack
         </label>
@@ -105,7 +105,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/loadcatalogue/"
+                value="/api/loadcatalogue/"
             />
             Load Catalogue
         </label>
@@ -113,7 +113,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="http://localhost:8000/load/"
+                value="/api/load/"
             />
             Load
         </label>
@@ -200,7 +200,7 @@
         <br />
         <p1>
             This service is accessible as an API via the following portal: <a
-                href="https://open3p.ecosystem2.co.uk/api/docs"
+                href="/api/docs"
             >
                 API.
             </a>
