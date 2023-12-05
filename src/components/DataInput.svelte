@@ -25,7 +25,7 @@
             });
 
             if (response.ok) {
-                console.log("CSV file sent successfully");
+                console.log("file sent successfully");
                 data = await response.json(); // Initialize the data variable
                 console.log(data.message);
                 if (data.log_contents) {
@@ -33,7 +33,7 @@
                     logContentsStore.set(data.log_contents);
                 }
             } else {
-                console.error("Error sending CSV file");
+                console.error("Error sending file");
             }
         } catch (error) {
             console.error("An error occurred:", error);
