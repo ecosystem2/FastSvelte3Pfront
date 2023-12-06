@@ -1,8 +1,14 @@
 {
-  "name": "svelte-todo",
+  "name": "fast.svelte_frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "homepage": "https://validator.open3p.org",
+  "bugs":{
+    "url": "https://github.com/ecosystem2/FastSvelte3Pfront/issues",
+    "email": "hello@ecosystem2.co.uk"
+  },
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
