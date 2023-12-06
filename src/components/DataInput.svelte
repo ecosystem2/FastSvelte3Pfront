@@ -64,7 +64,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/basematerials/"
+                value="https://validator.open3p.org/api/basematerials/"
             />
             Base Materials
         </label>
@@ -72,7 +72,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/materials/"
+                value="https://validator.open3p.org/api/materials/"
             />
             Materials
             <!-- Add more radio buttons for additional endpoints -->
@@ -81,7 +81,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/components/"
+                value="https://validator.open3p.org/api/components/"
             />
             Components
         </label>
@@ -89,7 +89,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/completepackaging/"
+                value="https://validator.open3p.org/api/completepackaging/"
             />
             Complete Packaging
         </label>
@@ -97,7 +97,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/multipack/"
+                value="https://validator.open3p.org/api/multipack/"
             />
             Multipack
         </label>
@@ -105,7 +105,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/loadcatalogue/"
+                value="https://validator.open3p.org/api/loadcatalogue/"
             />
             Load Catalogue
         </label>
@@ -113,7 +113,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="/api/load/"
+                value="https://validator.open3p.org/api/load/"
             />
             Load
         </label>
@@ -200,7 +200,7 @@
         <br />
         <p1>
             This service is accessible as an API via the following portal: <a
-                href="/api/docs"
+                href="https://validator.open3p.org/api/docs"
             >
                 API.
             </a>
