@@ -65,7 +65,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/basematerials/"
+                value="https://validator.ecosystem2.co.uk/api/basematerials/"
             />
             Base Materials
         </label>
