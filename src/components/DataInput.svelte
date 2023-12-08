@@ -1,4 +1,5 @@
 <script>
+    // when working on local host swap radio endpoints e.g. value="http://localhost:8000/basematerials/"
     import { logContentsStore } from "./store";
 
     let file = null;
@@ -64,7 +65,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/basematerials/"
+                value="https://validator.ecosystem2.co.uk/api/basematerials/"
             />
             Base Materials
         </label>
@@ -72,7 +73,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/materials/"
+                value="https://validator.ecosystem2.co.uk/api/materials/"
             />
             Materials
             <!-- Add more radio buttons for additional endpoints -->
@@ -81,7 +82,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/components/"
+                value="https://validator.ecosystem2.co.uk/api/components/"
             />
             Components
         </label>
@@ -89,7 +90,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/completepackaging/"
+                value="https://validator.ecosystem2.co.uk/api/completepackaging/"
             />
             Complete Packaging
         </label>
@@ -97,7 +98,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/multipack/"
+                value="https://validator.ecosystem2.co.uk/api/multipack/"
             />
             Multipack
         </label>
@@ -105,7 +106,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/loadcatalogue/"
+                value="https://validator.ecosystem2.co.uk/api/loadcatalogue/"
             />
             Load Catalogue
         </label>
@@ -113,7 +114,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.open3p.org/api/load/"
+                value="https://validator.ecosystem2.co.uk/api/load/"
             />
             Load
         </label>
@@ -209,7 +210,15 @@
         <br />
         <p1>
             Access to this tool is found under the Apache License 2.0. The
-            source code can be found here LINK to GiT.
+            source code can be found here <a
+                href="https://github.com/ecosystem2/FastSvelte3Pback"
+            >
+                API
+            </a>
+            and
+            <a href="https://github.com/ecosystem2/FastSvelte3Pfront">
+                Frontend.
+            </a>
         </p1>
         <br />
         <br />
