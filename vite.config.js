@@ -8,7 +8,7 @@ export default defineConfig({
   {
     server: {
       proxy: {
-        '/': 'https://validator.open3p.org'
+        '/': 'https://open3p.ecosystem2.co.uk'
       },
     },
   });
