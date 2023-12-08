@@ -65,7 +65,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/basematerials/"
+                value="https://open3p.ecosystem2.co.uk/api/basematerials/"
             />
             Base Materials
         </label>
@@ -73,7 +73,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/materials/"
+                value="https://open3p.ecosystem2.co.uk/api/materials/"
             />
             Materials
             <!-- Add more radio buttons for additional endpoints -->
@@ -82,7 +82,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/components/"
+                value="https://open3p.ecosystem2.co.uk/api/components/"
             />
             Components
         </label>
@@ -90,7 +90,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/completepackaging/"
+                value="https://open3p.ecosystem2.co.uk/api/completepackaging/"
             />
             Complete Packaging
         </label>
@@ -98,7 +98,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/multipack/"
+                value="https://open3p.ecosystem2.co.uk/api/multipack/"
             />
             Multipack
         </label>
@@ -106,7 +106,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/loadcatalogue/"
+                value="https://open3p.ecosystem2.co.uk/api/loadcatalogue/"
             />
             Load Catalogue
         </label>
@@ -114,7 +114,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://validator.ecosystem2.co.uk/api/load/"
+                value="https://open3p.ecosystem2.co.uk/api/load/"
             />
             Load
         </label>
