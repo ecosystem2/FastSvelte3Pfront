@@ -65,7 +65,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/basematerials/"
+                value="/api/basematerials"
             />
             Base Materials
         </label>
@@ -73,7 +73,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/materials/"
+                value="/api/materials"
             />
             Materials
             <!-- Add more radio buttons for additional endpoints -->
@@ -82,7 +82,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/components/"
+                value="/api/components"
             />
             Components
         </label>
@@ -90,7 +90,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/completepackaging/"
+                value="/api/completepackaging"
             />
             Complete Packaging
         </label>
@@ -98,7 +98,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/multipack/"
+                value="/api/multipack"
             />
             Multipack
         </label>
@@ -106,7 +106,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/loadcatalogue/"
+                value="/api/loadcatalogue"
             />
             Load Catalogue
         </label>
@@ -114,7 +114,7 @@
             <input
                 type="radio"
                 bind:group={selectedEndpoint}
-                value="https://open3p.ecosystem2.co.uk/api/load/"
+                value="/api/load"
             />
             Load
         </label>
